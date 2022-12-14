@@ -1,0 +1,52 @@
+:root{
+    --bs-primary:#C78C06;
+    --ba-primary-rgb:199,140,6;
+    --bs-secondary:#ffe6ac;
+    --bs-secondary-rgb:255,230,172;
+    --bs-dark:#222;
+    --bs-dark-rgb:34,34,34;
+    --bs-blue:#c78c06;
+}
+/* x-x-x-x top nav x-x-x-x */
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:link,
+.navbar-nav .nav-link:visited{
+    color:var(--bs-primary);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active{
+    background-color:var(--bs-primary) ;
+    color:var(--bs-dark);
+}
+
+/* navigation form */
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color:  var(--bs-primary);
+    --bs-btn-hover-bg:  var(--bs-primary);
+    --bs-btn-hover-border-color:  var(--bs-primary);
+    --bs-btn-active-bg:  var(--bs-primary);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+
+/* x-x-x-x banner x-x-x-x- */
+.banner{
+    background: var(--bs-dark) url(../images/main-banner.jpg) no-repeat center;
+    background-size:cover;}
+
+
+/* vision session */
+.vision{
+    background: var(--bs-dark) url(../images/vision.jpg) no-repeat center;
+    background-size:cover;
+}
+ 
+/* x-x-x-x defaults x-x-x-x- */
+a{
+    color:inherit;
+}
